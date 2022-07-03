@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-model = joblib.load('gener (1)')
+model = joblib.load('gender (1)')
 import numpy as np 
 st.title('GENDER CLASSIFIER')
 ip1 = st.number_input('Enter the height')
