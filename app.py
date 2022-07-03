@@ -9,3 +9,4 @@ ls=np.append(ip1,ip2)
 op = model.predict([ls])
 if st.button('predict'):
   st.title(op[0])
+      
